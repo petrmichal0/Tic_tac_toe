@@ -26,6 +26,14 @@ const App = () => {
   }
 
   useEffect(() => {
+    const isNotFilled = cells.includes("");
+
+    if (!isNotFilled && winningMessage === "") {
+      setWinningMessage("Draw");
+    }
+  }, [winningMessage, cells]);
+
+  useEffect(() => {
     const winningCombos = [
       [0, 1, 2],
       [3, 4, 5],
@@ -39,29 +47,18 @@ const App = () => {
 
     winningCombos.forEach((array) => {
       let circleWins = array.every((cell) => cells.at(cell) === "circle");
+      let crossWins = array.every((cell) => cells.at(cell) === "cross");
 
       if (circleWins) {
         setWinningMessage("Cicle wins");
         setScorePlayer1((scorePlayer1) => scorePlayer1 + 1);
       }
-    });
-
-    winningCombos.forEach((array) => {
-      let crossWins = array.every((cell) => cells.at(cell) === "cross");
 
       if (crossWins) {
         setWinningMessage("Cross wins");
         setScorePlayer2((scorePlayer2) => scorePlayer2 + 1);
       }
     });
-
-    const checkDraw = cells.filter(
-      (cell) => cell === "cross" || cell === "circle"
-    ).length;
-
-    if (checkDraw === 9) {
-      setWinningMessage("Draw");
-    }
   }, [cells]);
 
   return (
