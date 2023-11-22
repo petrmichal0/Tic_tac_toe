@@ -54,6 +54,14 @@ const App = () => {
         setScorePlayer2((scorePlayer2) => scorePlayer2 + 1);
       }
     });
+
+    const checkDraw = cells.filter(
+      (cell) => cell === "cross" || cell === "circle"
+    ).length;
+
+    if (checkDraw === 9) {
+      setWinningMessage("Draw");
+    }
   }, [cells]);
 
   return (
