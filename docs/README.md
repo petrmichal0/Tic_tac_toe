@@ -62,12 +62,12 @@ After starting, go to [http://localhost:3000](http://localhost:3000) in your web
   </tr>
   <tr>
   <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
-  <a href="https://your-link-1.com" target="_blank" rel="noopener noreferrer">
+  <a href="https://github.com/user-attachments/assets/6fea9dac-1856-48d2-b534-fefc63afa2f8" target="_blank" rel="noopener noreferrer">
     <img src="https://github.com/user-attachments/assets/6fea9dac-1856-48d2-b534-fefc63afa2f8" width="300" height="300" alt="Homepage">
   </a>
 </td>
 <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
-  <a href="https://your-link-2.com" target="_blank" rel="noopener noreferrer">
+  <a href="https://github.com/user-attachments/assets/65cd5078-32d9-4f5c-9ee8-ce14cf0e4530" target="_blank" rel="noopener noreferrer">
     <img src="https://github.com/user-attachments/assets/65cd5078-32d9-4f5c-9ee8-ce14cf0e4530" width="300" height="300" alt="Game Interface">
   </a>
 </td>
