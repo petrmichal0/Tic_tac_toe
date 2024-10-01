@@ -1,5 +1,3 @@
-# Tic Tac Toe
-
 ## Project Title and Description
 Tic Tac Toe is a web application that allows users to play the classic Tic Tac Toe game against another player.
 
@@ -64,11 +62,19 @@ After starting, go to [http://localhost:3000](http://localhost:3000) in your web
   </tr>
   <tr>
     <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
-      <img src="https://github.com/user-attachments/assets/6fea9dac-1856-48d2-b534-fefc63afa2f8" width="300" height="300" alt="Homepage">
+     <a href="https://your-page-link-1.com" target="_blank" rel="noopener noreferrer">
+       <img src="https://github.com/user-attachments/assets/6fea9dac-1856-48d2-b534-fefc63afa2f8" 
+         alt="Homepage" 
+         style="width: 100%; max-width: 310px; height: 100%; object-fit: cover;">
+     </a>
     </td>
-    <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
-      <img src="https://github.com/user-attachments/assets/65cd5078-32d9-4f5c-9ee8-ce14cf0e4530" width="300" height="300" alt="Game Interface">
-    </td>
+<td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
+  <a href="https://your-page-link-2.com" target="_blank" rel="noopener noreferrer">
+    <img src="https://github.com/user-attachments/assets/65cd5078-32d9-4f5c-9ee8-ce14cf0e4530" 
+         alt="Game Interface" 
+         style="width: 100%; max-width: 310px; height: 100%; object-fit: cover;">
+  </a>
+</td>
   </tr>
 </table>
 
