@@ -106,7 +106,7 @@ Tic_tac_toe/
 
 ## Third-Party Libraries
 
-* React Router
+* None
 
 ## License
 
